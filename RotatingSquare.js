@@ -6,8 +6,7 @@ var theta = 0.0;
 var dTheta = 0.01;
 var vBuffer;
 
-// Getting the keyboard input
-window.onwheel = function () {};
+
 
 // Four Vertices
 var vertices = [
@@ -51,7 +50,7 @@ window.onload = function init() {
 };
 
 function render() {
-  // Changing the height value for moving the square
+ //changing the speed of the rotation
 
   theta = theta - dTheta;
 
